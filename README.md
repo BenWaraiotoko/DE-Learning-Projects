@@ -1,15 +1,54 @@
-**10-month data engineering learning roadmap (Jan-Oct 2026) with 32 hands-on projects building to Le Wagon bootcamp entry.**
+# Data Engineering Projects 2026
 
-**Monthly progression:**
+**Benjamin Nardini** | Broadcast Engineer → Data Engineer
 
-- **Jan-Feb:** Docker foundations + Airflow orchestration (6 projects: containers, PostgreSQL, DAGs, error handling)
-- **Mar:** dbt transformations + integration (3 projects: models, tests, Airflow-dbt pipeline)
-- **Apr:** Scaling tools (3 projects: PySpark, Kubernetes/minikube, portfolio polish)
-- **May:** Capstone - Fukuoka Weather ETL (production-quality pipeline: API extraction, Airflow orchestration, dbt transformations, Docker deployment, tests, CI/CD)
-- **Jun-Oct:** Interview prep, Le Wagon application, acceptance, prework completion, final polish
+Portfolio documenting my transition to Data Engineering through hands-on projects (January-October 2026).
 
-**Structure:** Each project scoped 4-8 hours with specific stack, deliverables, GitHub repos, and commit targets. Parallel Codecademy track (Python → SQL → Pandas → Data Wrangling).
+## Overview
 
-**Output:** 9-11 GitHub repos demonstrating progression from "Hello Docker" to production ETL. Total investment: 350-400 hours over 10 months at 10-12h/week.
+**28 projects** covering the modern Data Engineering stack:
 
-**Execution model:** Weekly check-ins to break down current project into exact steps, code templates, and review cycles.
+- Docker, Kubernetes | Apache Airflow | dbt | PySpark | PostgreSQL | pytest
+
+**Goal**: Join Le Wagon Data Engineering bootcamp (Oct 2026) with production-ready portfolio.
+
+### January - Docker Foundations
+- ✅ Hello Docker | Docker, Python
+- 🔄 PostgreSQL in Docker | Docker, PostgreSQL, Python
+- 📋 Data Loader | Python, Pandas, PostgreSQL
+
+### February - Airflow Orchestration
+- 📋 First Airflow DAG | Airflow, Python, PostgreSQL
+- 📋 Error Handling | Airflow, Python
+- 📋 Airflow + PostgreSQL | Airflow, PostgreSQL, Pandas
+
+### March - dbt Transformations
+- 📋 dbt Setup | dbt-core, PostgreSQL
+- 📋 Tests & Docs | dbt-core, PostgreSQL, SQL
+- 📋 Airflow + dbt | Airflow, dbt-core, PostgreSQL
+
+### April - Scaling & Cloud
+- 📋 PySpark Job | PySpark, Python, PostgreSQL
+- 📋 Kubernetes + Airflow | Kubernetes, Airflow, Docker
+- 📋 Portfolio Polish | Documentation
+
+### May - ⭐ CAPSTONE: Fukuoka Weather ETL
+Complete production pipeline ingesting OpenWeatherMap API data.
+
+**Stack**: Python, Airflow, dbt, PostgreSQL, Docker, pytest
+**Features**: Daily automation, error handling, data quality tests, CI/CD
+
+```
+OpenWeatherMap API → Airflow → PostgreSQL (raw) → dbt → PostgreSQL (analytics)
+```
+
+### June-October - Bootcamp Preparation
+Interview prep → Le Wagon application → Prework → Bootcamp (Oct 31)
+
+## Contact
+
+🌍 [Portfolio](https://bwo-portfolio.pages.dev/) | 📧 [benwaraiotoko@proton.me](mailto:benwaraiotoko@proton.me) | 🔗 [LinkedIn](https://www.linkedin.com/in/benjamin-n-b60b9439a/)
+
+---
+
+**~350h invested** | **28 projects** | **Goal: Le Wagon DE Bootcamp Oct 2026**

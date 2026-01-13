@@ -1,0 +1,96 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.log
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Docker
+*.pid
+.dockerignore
+
+# Airflow
+airflow.db
+airflow.cfg
+airflow-webserver.pid
+logs/
+airflow_logs/
+standalone_admin_password.txt
+
+# dbt
+target/
+dbt_packages/
+dbt_modules/
+logs/
+*.log
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Data files (uncomment if you want to ignore data)
+# *.csv
+# *.json
+# *.parquet
+# *.pkl
+# data/
+
+# Spark
+derby.log
+metastore_db/
+spark-warehouse/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# OS
+Thumbs.db
+*.tmp
