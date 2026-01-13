@@ -1,8 +1,6 @@
 # Data Engineering Projects 2026
 
-**Benjamin Nardini** | Broadcast Engineer → Data Engineer
-
-Portfolio documenting my transition to Data Engineering through hands-on projects (January-October 2026).
+Portfolio documenting my learning journey to Data Engineering through hands-on projects (January-October 2026).
 
 ## Overview
 
@@ -10,7 +8,7 @@ Portfolio documenting my transition to Data Engineering through hands-on project
 
 - Docker, Kubernetes | Apache Airflow | dbt | PySpark | PostgreSQL | pytest
 
-**Goal**: Join Le Wagon Data Engineering bootcamp (Oct 2026) with production-ready portfolio.
+**Goal**: Join Le Wagon's Data Engineering bootcamp (Oct 2026) with sufficient skills.
 
 ### January - Docker Foundations
 - ✅ Hello Docker | Docker, Python
