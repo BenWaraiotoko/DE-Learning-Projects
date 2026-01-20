@@ -1,0 +1,11 @@
+# Use PostgreSQL 17 image (latest stable version)
+FROM postgres:17
+
+# Copy the SQL script to create the database and tables
+COPY init.sql /docker-entrypoint-initdb.d/
+
+# Expose the port that PostgreSQL runs on
+EXPOSE 5432
+
+# Start the PostgreSQL service
+CMD ["postgres"]

@@ -1,0 +1,13 @@
+# docker-compose.yml
+version: '3.8'
+services:
+  db:
+    build: .
+    env_file: .env  # Chargé à runtime, pas dans l'image
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:

@@ -211,4 +211,4 @@ This is **Project 1-1** in the 10-month Data Engineering Learning Roadmap (Jan-O
 **Month:** January (Week 2)
 **Focus:** Docker Foundations
 **Time Investment:** 1-2 hours
-**Repository:** https://github.com/[your-username]/DE-Learning-Projects/Project-1-1
+**Repository:** https://github.com/benwaraiotoko/DE-Learning-Projects/1-1_Hello-Docker
