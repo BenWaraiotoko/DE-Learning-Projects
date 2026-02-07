@@ -3,11 +3,21 @@ version: '3.8'
 services:
   db:
     build: .
-    env_file: .env  # Chargé à runtime, pas dans l'image
+    env_file: .env  # Load environment variables from .env file
     ports:
       - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
+  
+  # Service loader with python script to load data into the database
+  loader:
+    build: ./loader
+    env_file: .env  # Load environment variables from .env file
+    depends_on:
+      - db # Ensure the database service is up before starting the loader
+    
+  
+    
 
 volumes:
   postgres_data:
