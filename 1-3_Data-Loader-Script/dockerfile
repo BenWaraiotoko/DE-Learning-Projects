@@ -1,0 +1,13 @@
+#  python 3.10 image for the loader
+FROM python:3.10
+
+# Copy and install the data loader script
+COPY . /app
+WORKDIR /app
+RUN pip install -r requirements.txt
+
+# Connect docker-compose & env file
+COPY .env ./
+
+# Run the data loader script
+CMD ["python", "loader.py"]
